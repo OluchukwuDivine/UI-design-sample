@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>car wash</title>
-    <link rel="stylesheet" href="font-awesome/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="car-wash-container">
+const wholePage= document.querySelector("body");
+const getOtpLogin= document.querySelector("#get-otp");
+
+getOtpLogin.addEventListener("click", ()=>{
+    wholePage.innerHTML= `
+            <div class="car-wash-container">
         <div class="wash-top-div">
             <div class="location-sec">
                 <div class="car-icon">
@@ -53,7 +48,7 @@
 
                 <div class="car-card">
                     <div class="card-left-item">
-                        <img src="images/interior-1.jpg" alt="">
+                        <img src="/images/interior-1.jpg" alt="">
                     </div>
                     <div class="card-right-item">
                         <div class="card-det">
@@ -71,7 +66,7 @@
 
                 <div class="car-card">
                     <div class="card-left-item">
-                        <img src="images/interior-2.jpg" alt="">
+                        <img src="/images/interior-2.jpg" alt="">
                     </div>
                     <div class="card-right-item">
                         <div class="card-det">
@@ -89,7 +84,7 @@
 
                 <div class="car-card">
                     <div class="card-left-item">
-                        <img src="images/interior-3.jpg" alt="">
+                        <img src="/images/interior-3.jpg" alt="">
                     </div>
                     <div class="card-right-item">
                         <div class="card-det">
@@ -130,5 +125,5 @@
             </div>
         </footer>
     </div>
-</body>
-</html>
+    `
+})
