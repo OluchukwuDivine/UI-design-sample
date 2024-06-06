@@ -48,7 +48,7 @@ getOtpLogin.addEventListener("click", ()=>{
 
                 <div class="car-card">
                     <div class="card-left-item">
-                        <img src="/images/interior-1.jpg" alt="">
+                        <img src="images/interior-1.jpg" alt="">
                     </div>
                     <div class="card-right-item">
                         <div class="card-det">
@@ -66,7 +66,7 @@ getOtpLogin.addEventListener("click", ()=>{
 
                 <div class="car-card">
                     <div class="card-left-item">
-                        <img src="/images/interior-2.jpg" alt="">
+                        <img src="images/interior-2.jpg" alt="">
                     </div>
                     <div class="card-right-item">
                         <div class="card-det">
@@ -84,7 +84,7 @@ getOtpLogin.addEventListener("click", ()=>{
 
                 <div class="car-card">
                     <div class="card-left-item">
-                        <img src="/images/interior-3.jpg" alt="">
+                        <img src="images/interior-3.jpg" alt="">
                     </div>
                     <div class="card-right-item">
                         <div class="card-det">
